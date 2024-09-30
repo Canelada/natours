@@ -4,11 +4,12 @@
   "description": "Learn node, express and mongoDB",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "Matheus Leopardi Mello Canelada Campos",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "morgan": "^1.10.0"
   }
 }
